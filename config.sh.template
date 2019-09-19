@@ -1,0 +1,7 @@
+#!/bin/bash
+
+GITLAB_SERVER='https://gitlab.mydomain.com'
+GITLAB_GROUP='mygroup'
+GITLAB_MEMEBERS_API_URL="$GITLAB_SEVER/api/v4/groups/$GITLAB_GROUP/members/all"
+
+AWS_S3_DEST='s3://my-s3-repo/my-folder/authorized_keys'
